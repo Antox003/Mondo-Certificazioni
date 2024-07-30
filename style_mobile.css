@@ -1,0 +1,81 @@
+header .container-title {
+    font-size: 10px;
+}
+
+header .container-header button{
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.container-animation{
+   display: none;
+}
+
+.home .container-title{
+    left: 50%;
+    font-size: 25px;
+}
+
+.home .container-title button{
+    left: 10%;    
+    padding: 5px 10px;
+}
+
+.home .container-title img{
+    display: none;
+}
+
+.service-title{
+    font-size: 30px;
+}
+
+.container-card  .card:hover{
+    height: 450px;
+}
+
+.container-card .card:hover .content{
+    top: 130px;
+    height: 380px;
+}
+
+.container-card .card .imgbox{
+    width: 250px;
+    height: 200px;
+}
+
+.contact .form-contact input{
+    width: 300px;
+    height: 30px;
+}
+
+.contact .form-contact select{
+    width: 300px;
+    height: 30px;
+}
+
+.contact .form-contact{
+    width: 90%;
+    border-radius: 20px;
+}
+
+.contact .form-contact h3{
+    font-size: 30px;
+}
+
+.contact .form-contact textarea{
+    width: 80%
+}
+
+.contact .form-contact .checkbox{
+    height: 15px;
+    width: 15px;
+}
+
+footer .container-footer{
+    height: auto;
+    width: 80%;
+}
+
+footer .container-footer .document{
+    font-size: 12px;
+}
