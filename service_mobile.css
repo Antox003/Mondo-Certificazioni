@@ -152,6 +152,10 @@ header .container{
     font-size: 35px;
 }
 
+.about{
+    padding: 30px;
+}
+
 .about h1{
     font-size: 30px;
 }

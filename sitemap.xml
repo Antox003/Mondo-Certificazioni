@@ -8,15 +8,94 @@
     <priority>1.0</priority>
   </url>
   
-  <!-- Pagina principale -->
-  <url>
-    <loc>https://www.mondocertificazioni.com/index.html</loc>
-    <lastmod>2024-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
   <!-- Aggiungi altre pagine del tuo sito qui -->
+  <!-- Certificazione SOA -->
+  <url>
+    <loc>https://www.mondocertificazioni.com/certificazione-soa</loc>
+    <lastmod>2024-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+ <!-- Sistemi di Gestione SOA -->
+  <url>
+    <loc>https://www.mondocertificazioni.com/sistemi-di-gestione</loc>
+    <lastmod>2024-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sistemi di Gare d'Appalto -->
+  <url>
+    <loc>https://www.mondocertificazioni.com/gare-appalto</loc>
+    <lastmod>2024-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Avvalimenti -->
+  <url>
+    <loc>https://www.mondocertificazioni.com/avvalimenti</loc>
+    <lastmod>2024-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- D.LGS 231/2001 -->
+  <url>
+    <loc>https://www.mondocertificazioni.com/dlgs-231-2001</loc>
+    <lastmod>2024-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ECO VADIS -->
+  <url>
+    <loc>https://www.mondocertificazioni.com/eco-vadis</loc>
+    <lastmod>2024-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Registrazione EMAS -->
+  <url>
+    <loc>https://www.mondocertificazioni.com/registrazione-emas</loc>
+    <lastmod>2024-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Formazione -->
+  <url>
+    <loc>https://www.mondocertificazioni.com/formazione</loc>
+    <lastmod>2024-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Medicina del Lavoro -->
+  <url>
+    <loc>https://www.mondocertificazioni.com/medicina-del-lavoro</loc>
+    <lastmod>2024-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Responsabilità Sociale -->
+  <url>
+    <loc>https://www.mondocertificazioni.com/responsabilita-sociale</loc>
+    <lastmod>2024-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sicurezza sul Lavoro  -->
+  <url>
+    <loc>https://www.mondocertificazioni.com/sicurezza-sul-lavoro</loc>
+    <lastmod>2024-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   
   <!-- Favicon -->
   <url>
