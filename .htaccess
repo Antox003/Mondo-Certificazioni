@@ -6,10 +6,10 @@ ErrorDocument 500 /error500.html
 
 RewriteEngine On
 # Riscrittura URL per Home
-RewriteRule ^home/?$ / [L]
+RewriteRule ^home/?$ index.html [L]
 
-# Riscrittura URL per Certificazione SOA
-RewriteRule ^certificazione-soa/?$ soa.html [L]
+# Riscrittura URL per Attestazione SOA
+RewriteRule ^attestazione-soa/?$ soa.html [L]
 
 # Riscrittura URL per Sistemi di Gestione
 RewriteRule ^sistemi-di-gestione/?$ gestione.html [L]
@@ -24,7 +24,7 @@ RewriteRule ^avvalimenti/?$ avvalimenti.html [L]
 RewriteRule ^dlgs-231-2001/?$ dlgs.html [L]
 
 # Riscrittura URL per ECO VADIS
-RewriteRule ^eco-vadis/?$ ecovadis.html [L]
+RewriteRule ^valutazione-eco-vadis/?$ ecovadis.html [L]
 
 # Riscrittura URL per Registrazione EMAS
 RewriteRule ^registrazione-emas/?$ emas.html [L]
@@ -40,3 +40,6 @@ RewriteRule ^responsabilita-sociale/?$ responsabilitasociale.html [L]
 
 # Riscrittura URL per Sicurezza sul Lavoro 
 RewriteRule ^sicurezza-sul-lavoro/?$ sicurezzalavoro.html [L]
+
+# Riscrittura URL per Cookie Policy
+RewriteRule ^cookie-page/?$ cookie-page.html [L]
