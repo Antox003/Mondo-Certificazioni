@@ -37,17 +37,22 @@ header .container-header{
 }
 
 header .container-title {
-    width: 25%;
     display: flex;
+    color: #000056;
+    align-items: center;
+    height: 20px;
 }
 
-header .regular{
-    font-weight: 500;
+header .container-title .regular{
+    font-weight: 400;
 }
+
 
 header .container-title img{
-    width: 6%;
+    width:8%;
+    height: 100%;
     margin: 0px 3px 0px 3px;
+    color: #000056;
 }
 
 header .container-header button{
@@ -404,10 +409,4 @@ footer .container-footer .document{
     display: flex;
     justify-content: center;
     padding: 5px;
-}
-
-
-@media only screen and (max-width:1000px) {
-
-
 }

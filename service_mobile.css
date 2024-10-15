@@ -11,7 +11,7 @@ h2{
 }
 
 header .container{
-    width: 85%;
+    width: 90%;
 }
 
 .nav-btn{
@@ -139,6 +139,11 @@ header .container{
 .dropdown i{
     font-size: 1rem;
     transition: .7s;
+}
+
+header .container-title {
+    font-size: 12px;
+    height: 10px;
 }
 
 .soa{

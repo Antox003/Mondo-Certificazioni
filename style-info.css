@@ -37,7 +37,7 @@ header .container{
     position: absolute;
     z-index: 1000;
     background:#ffffff;
-    width: 80%;
+    width: 85%;
     height: 100px;
     flex-shrink: 0;
     border-radius: 0px 0px 10px 10px;
@@ -49,6 +49,7 @@ header .logo-container {
     display: flex;
     color: #000056;
     align-items: center;
+    height: 20px;
 }
 
 header .logo-container .regular{
@@ -57,6 +58,7 @@ header .logo-container .regular{
 
 header .logo-container img{
     width:8%;
+    height: 100%;
     margin: 0px 3px 0px 3px;
     color: #000056;
 }
@@ -461,6 +463,10 @@ footer .container-footer .document{
     .dropdown i{
         font-size: 1rem;
         transition: .7s;
+    }
+
+    header .container{
+        width: 80%;
     }
 
     .infotitle{
