@@ -261,7 +261,7 @@ header .logo-container img{
 }
 
 .infocontainer h3{
-    font-size: 30px;
+    font-size: 25px;
     color: #000056;
 }
 
@@ -293,7 +293,26 @@ header .logo-container img{
     font-size: 20px;
 }
 
+/*AGGIUNTE PER PRIVACY POLICY*/
+.infocontainer .date {
+    font-size: 15px;
+}
 
+.infocontainer .date{
+    display: flex;
+    align-items: center;
+}
+
+.infocontainer .list{
+    list-style: disc;
+    font-size: 20px;
+}
+
+.infocontainer .list-item{
+    color: #000056;
+    font-weight: 700;
+}
+ 
 /*Footer*/
 footer{
     display: flex;
@@ -483,6 +502,13 @@ footer .container-footer .document{
         font-size: 15px;
         font-family: "Roboto", sans-serif;
         line-height: 150%;
+    }
+
+    /*AGGIUNTE PER PRIVACY POLICY*/
+
+    .infocontainer .list{
+        list-style: disc;
+        font-size: 15px;
     }
 
     footer .container-footer{

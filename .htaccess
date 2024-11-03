@@ -43,3 +43,9 @@ RewriteRule ^sicurezza-sul-lavoro/?$ sicurezzalavoro.html [L]
 
 # Riscrittura URL per Cookie Policy
 RewriteRule ^cookie-page/?$ cookie-page.html [L]
+
+# Riscrittura URL per Privacy Policy
+RewriteRule ^privacy-policy/?$ privacy-policy.html [L]
+
+# Riscrittura URL per Termini & Condizioni
+RewriteRule ^termini-condizioni/?$ termini-condizioni.html [L]
