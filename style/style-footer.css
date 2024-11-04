@@ -1,0 +1,37 @@
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+footer .container-footer{
+    text-align: center;
+    align-items: center;
+    padding: 15px 5%;
+    position: absolute;
+    z-index: 100;
+    background:#ffffff;
+    width: 80%;
+    height: 112px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 1px 2px 10px 10px rgba(0, 0, 0, 0.25);
+    color: #000056;
+}
+
+footer .container-footer .document{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+@media only screen and (max-width:1000px) {
+
+    footer .container-footer{
+        height: auto;
+        width: 80%;
+    }
+    
+    footer .container-footer .document{
+        font-size: 12px;
+    }
+}

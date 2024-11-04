@@ -1,3 +1,6 @@
+<?php
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,8 +9,7 @@
     <meta name="description" content="Scopri i nostri servizi per la gestione e il conseguimento di certificazioni aziendali. Mondo Certificazioni ti guida passo dopo passo nel miglioramento dei sistemi di gestione, per ottenere certificazioni ISO e garantire la qualità e la sicurezza della tua impresa. Affidati agli esperti del settore!">
     <meta name="google-site-verification" content="UcBfsREwZO3euaAdJcxxSpAq-5zEM6VVTlcO0qsunuM"/>
     <title>Mondo Certificazioni</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width:1000px)" href="style_mobile.css">
+    <link rel="stylesheet" href="style/style-home.css">
     <link rel="icon" href="./img/globe.png" type="image/png">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
@@ -289,20 +291,9 @@
         </form>
     </div>
 </section>
-<footer>
-    <div class="container-footer">
-        <h4>Mondo Certificazioni di Marco Antonio Biblioteca &copy; 2024. Tutti i diritti riservati</h4>
-        <h5>Sede legale: Via F. TURATI 17 80020, Crispano (NA)</h5>
-        <h5>P.Iva: 10529631219</h5>
-        <div class="document">
-            <p><a href="cookie-page">Cookie Policy</a></p>
-            <p>ㅤ||ㅤ</p>
-            <p><a href="privacy-policy">Privacy Policy</a></p>
-            <p>ㅤ||ㅤ</p>
-            <p><a href="termini-condizioni">Termini e Condizioni</a></p>
-        </div>
-    </div>
-</footer>
-
 </body>
 </html>
+
+<?php
+    include 'fragments/footer.php'
+?>

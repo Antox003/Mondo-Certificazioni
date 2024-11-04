@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #ffffff;
+}
+
+/*************************************************/
+
+.soa{
+    display: flex;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.soa img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.soa .title{
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.537);
+}
+
+.about{
+    padding: 50px;
+    color: #000000;
+    position: relative;
+    z-index: 100;
+}
+
+.about h1{
+    font-size: 40px;
+    text-align: center; 
+    color: #000056;
+}
+
+.about h3{
+    color: #000056;
+}
+
+.about a{
+    color: #000056;
+}
+
+.about .color{
+    color: #000056;
+    font-weight: 600;
+}
+
+.about button{
+    background: #000056;
+    border-radius: 15px;
+    border: none;
+    padding: 8px 18px;
+    font-size: 20px;
+    font-weight: 600; 
+}
+
+.about button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1000px) {
+    header .container-title {
+        font-size: 12px;
+        height: 10px;
+    }
+    
+    .soa{
+        display: flex;
+        height: 40vh;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .soa .title{
+        font-size: 35px;
+    }
+    
+    .about{
+        padding: 30px;
+    }
+    
+    .about h1{
+        font-size: 30px;
+    }
+    
+}

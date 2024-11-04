@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #F4F7FC;
+}
+
+/*************************************/
+
+.infotitle{
+    color: #000056;
+    text-align: start;
+    font-size: 40px;
+    margin: 50px;
+}
+
+.infocontainer{
+    margin: 50px;
+}
+
+.infocontainer h3{
+    font-size: 25px;
+    color: #000056;
+}
+
+.infocontainer p{
+    font-size: 20px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    line-height: 150%;
+}
+
+.infocontainer .color{
+    color: #000056;
+}
+
+.infocontainer p a{
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    transition: 0.2s ease-in;
+    text-decoration: underline;
+}
+
+.infocontainer p a:hover{
+    color: #000056;
+    transition: 0.2s ease-in;
+}
+
+.infocontainer h6{
+    color: #000056;
+    font-size: 20px;
+}
+
+/*AGGIUNTE PER PRIVACY POLICY*/
+.infocontainer .date {
+    font-size: 15px;
+}
+
+.infocontainer .date{
+    display: flex;
+    align-items: center;
+}
+
+.infocontainer .list{
+    list-style: disc;
+    font-size: 20px;
+}
+
+.infocontainer .list-item{
+    color: #000056;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:1000px) {
+
+    header .container{
+        width: 80%;
+    }
+
+    .infotitle{
+        text-align: center;
+        font-size: 22px;
+        margin: 30px;
+    }
+
+    .infocontainer{
+        margin: 30px;
+    }
+
+    .infocontainer p{
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        line-height: 150%;
+    }
+
+    /*AGGIUNTE PER PRIVACY POLICY*/
+
+    .infocontainer .list{
+        list-style: disc;
+        font-size: 15px;
+    }
+
+}

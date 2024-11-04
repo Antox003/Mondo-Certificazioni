@@ -1,4 +1,4 @@
-# Error 400 - Bad Request
+# Error 404 - Not Found
 ErrorDocument 404 /error404.html
 
 # Error 500 - Internal Server Error
@@ -6,46 +6,46 @@ ErrorDocument 500 /error500.html
 
 RewriteEngine On
 # Riscrittura URL per Home
-RewriteRule ^home/?$ index.html [L]
+RewriteRule ^home/?$ index.php [L]
 
 # Riscrittura URL per Attestazione SOA
-RewriteRule ^attestazione-soa/?$ soa.html [L]
+RewriteRule ^attestazione-soa/?$ soa.php [L]
 
 # Riscrittura URL per Sistemi di Gestione
-RewriteRule ^sistemi-di-gestione/?$ gestione.html [L]
+RewriteRule ^sistemi-di-gestione/?$ gestione.php [L]
 
 # Riscrittura URL per Gare d'Appalto
-RewriteRule ^gare-appalto/?$ appalto.html [L]
+RewriteRule ^gare-appalto/?$ appalto.php [L]
 
 # Riscrittura URL per Avvalimenti
-RewriteRule ^avvalimenti/?$ avvalimenti.html [L]
+RewriteRule ^avvalimenti/?$ avvalimenti.php [L]
 
 # Riscrittura URL per D.LGS 231/2001
-RewriteRule ^dlgs-231-2001/?$ dlgs.html [L]
+RewriteRule ^dlgs-231-2001/?$ dlgs.php [L]
 
 # Riscrittura URL per ECO VADIS
-RewriteRule ^valutazione-eco-vadis/?$ ecovadis.html [L]
+RewriteRule ^valutazione-eco-vadis/?$ ecovadis.php [L]
 
 # Riscrittura URL per Registrazione EMAS
-RewriteRule ^registrazione-emas/?$ emas.html [L]
+RewriteRule ^registrazione-emas/?$ emas.php [L]
 
 # Riscrittura URL per Formazione
-RewriteRule ^formazione/?$ formazione.html [L]
+RewriteRule ^formazione/?$ formazione.php [L]
 
 # Riscrittura URL per Medicina del Lavoro
-RewriteRule ^medicina-del-lavoro/?$ medicina.html [L]
+RewriteRule ^medicina-del-lavoro/?$ medicina.php [L]
 
 # Riscrittura URL per Responsabilità Sociale
-RewriteRule ^responsabilita-sociale/?$ responsabilitasociale.html [L]
+RewriteRule ^responsabilita-sociale/?$ responsabilitasociale.php [L]
 
 # Riscrittura URL per Sicurezza sul Lavoro 
-RewriteRule ^sicurezza-sul-lavoro/?$ sicurezzalavoro.html [L]
+RewriteRule ^sicurezza-sul-lavoro/?$ sicurezzalavoro.php [L]
 
 # Riscrittura URL per Cookie Policy
-RewriteRule ^cookie-page/?$ cookie-page.html [L]
+RewriteRule ^cookie-page/?$ cookie-page.php [L]
 
 # Riscrittura URL per Privacy Policy
-RewriteRule ^privacy-policy/?$ privacy-policy.html [L]
+RewriteRule ^privacy-policy/?$ privacy-policy.php [L]
 
 # Riscrittura URL per Termini & Condizioni
-RewriteRule ^termini-condizioni/?$ termini-condizioni.html [L]
+RewriteRule ^termini-condizioni/?$ termini-condizioni.php [L]

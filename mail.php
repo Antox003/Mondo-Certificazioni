@@ -64,7 +64,7 @@ echo "<script type='text/javascript'>alert('$message');</script>";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mondo Certificazioni | Email inviata</title>
-    <link rel="stylesheet" href="style_php.css">
+    <link rel="stylesheet" href="style/style-mail.css">
     <link rel="short icon" href="./img/globe.png">
 </head>
 <body>
