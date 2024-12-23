@@ -50,8 +50,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $msg = "Impresa: $impresa\nCodice Fiscale: $cod_fisc\nProvincia: $provincia\nEmail: $email\nTelefono: $telefono\nServizio: $service\nRichiesta: $richiesta";
         $msg = wordwrap($msg, 70);
 
-        // Impostazioni email
-        $to = "antonio03.margio@gmail.com";
+        // Impostazioni email (info@mondocertificazioni.com)
+        $to = "info@mondocertificazioni.com";
         $subject = "Richiesta Consulenza";
         $headers = "From: postmaster@mondocertificazioni.com\r\n";
 
