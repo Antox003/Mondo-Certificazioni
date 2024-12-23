@@ -1,4 +1,19 @@
 <?php
+
+    if($_GET['error'] === 'email_failed'){
+        echo "
+        <script>
+            alert('Errore: Non è stato possibile inviare l\'email.');
+            window.location.href = 'home#contact';
+        </script>";
+    } elseif($_GET['error'] === 'reCaptcha'){
+        echo "
+        <script>
+            alert('Errore: reCaptcha non verificato');
+            window.location.href = 'home#contact';
+        </script>";
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -211,7 +226,7 @@
         <h3>CONTATTI</h3>
         <br>
         <br>
-        <form action="./mail.php" method="post">
+        <form action="./server.php" method="post">
             <div class="group">
                 <div class="impresa">
                     <label for="impr">IMPRESA*</label>
@@ -284,7 +299,7 @@
 
             <div class="submit-request">
                 <div class="container-captcha">
-                    <div class="g-recaptcha" data-sitekey="6LdQ57QpAAAAAOM_qhVRi-ttzrGbfPnaGnxfVlpd"></div>
+                    <div class="g-recaptcha" data-sitekey="6LcgPqMqAAAAAOw-R8UH0pr1MrfWE8mfBKQdLOLA"></div>
                 </div>
                 <input type="submit" id="submit" value="Invia Richiesta">
             </div>

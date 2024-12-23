@@ -41,6 +41,9 @@ RewriteRule ^responsabilita-sociale/?$ responsabilitasociale.php [L]
 # Riscrittura URL per Sicurezza sul Lavoro 
 RewriteRule ^sicurezza-sul-lavoro/?$ sicurezzalavoro.php [L]
 
+# Riscrittura URL per Confirma email
+RewriteRule ^confirm-email/?$ confirm-email.php [L]
+
 # Riscrittura URL per Cookie Policy
 RewriteRule ^cookie-page/?$ cookie-page.php [L]
 
@@ -49,3 +52,5 @@ RewriteRule ^privacy-policy/?$ privacy-policy.php [L]
 
 # Riscrittura URL per Termini & Condizioni
 RewriteRule ^termini-condizioni/?$ termini-condizioni.php [L]
+
+php_flag display_errors Off
