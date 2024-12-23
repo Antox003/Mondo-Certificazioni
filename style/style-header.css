@@ -314,7 +314,8 @@ header .logo-container img{
     
     .nav-link:hover > a{
         transform: scale(1);
-        background-color: #6f6fd6;
+        background-color: #000056;
+        color: #ffffff;
     }
     
     .dropdown, .dropdown.second{
@@ -326,7 +327,7 @@ header .logo-container img{
         pointer-events: auto;
         width: 100%;
         padding: 0;
-        background-color: #b6b6ff;
+        background-color: #3737ff;
         display: none;
     }
     
@@ -368,7 +369,7 @@ header .logo-container img{
     }
     
     .nav-link:hover .arrow{
-        background-color: #6f6fd6;
+        background-color: #1d1d97;
     }
     
     .dropdown .dropdown .arrow{
