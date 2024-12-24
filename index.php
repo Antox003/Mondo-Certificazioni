@@ -299,7 +299,7 @@
 
             <div class="submit-request">
                 <div class="container-captcha">
-                    <div class="g-recaptcha" data-sitekey="6LcgPqMqAAAAAOw-R8UH0pr1MrfWE8mfBKQdLOLA"></div>
+                    <div class="g-recaptcha" data-sitekey="secret-key"></div>
                 </div>
                 <input type="submit" id="submit" value="Invia Richiesta">
             </div>

@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Chiavi reCAPTCHA
-    $secretKey = "6LcgPqMqAAAAALTyt1xko0a7QWLGAPi3qUSJ0FCZ";
+    $secretKey = "secret-key";
     $captchaResponse = $_POST['g-recaptcha-response'] ?? '';
     $remoteIp = $_SERVER['REMOTE_ADDR'];
 
