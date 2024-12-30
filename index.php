@@ -49,7 +49,7 @@
     <div class="container-title">
         <div class="title">
             <h4>Consulenti per Professione...</h4>
-        <h4>Ottimizzatori per vocazione</h4>
+            <h4>Ottimizzatori per vocazione</h4>
         </div>
         <br>
         <br>
@@ -290,7 +290,7 @@
             </div>
 
             <div class="policy">
-                <p><input type="checkbox" name="" class="checkbox" required> Selezionando questa casella acconsenti al trattamento dei tuoi dati secondo la <a href="./doc/Policy_trattamento_dati.pdf" target="_blank">Privacy policy</a></p>
+                <p><input type="checkbox" name="" class="checkbox" required> Selezionando questa casella acconsenti al trattamento dei tuoi dati secondo la <a href="privacy-policy">Privacy Policy</a></p>
             </div>
 
             <div class="obligatory">
@@ -299,7 +299,7 @@
 
             <div class="submit-request">
                 <div class="container-captcha">
-                    <div class="g-recaptcha" data-sitekey="secret-key"></div>
+                    <div class="g-recaptcha" data-sitekey="6LcgPqMqAAAAAOw-R8UH0pr1MrfWE8mfBKQdLOLA"></div>
                 </div>
                 <input type="submit" id="submit" value="Invia Richiesta">
             </div>
