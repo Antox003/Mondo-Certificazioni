@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Chiavi reCAPTCHA
-    $secretKey = "secret-key";
+    $secretKey = "";
     $captchaResponse = $_POST['g-recaptcha-response'] ?? '';
     $remoteIp = $_SERVER['REMOTE_ADDR'];
 
@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // URL di verifica reCAPTCHA
-    $verifyUrl = "https://www.google.com/recaptcha/api/siteverify";
+    $verifyUrl = "";
 
     // Invio richiesta a Google
     $ch = curl_init();

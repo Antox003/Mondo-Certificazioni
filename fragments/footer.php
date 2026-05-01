@@ -1,4 +1,5 @@
 <?php
+    $year = date('Y');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +13,7 @@
 
     <footer>
         <div class="container-footer">
-            <h4>Mondo Certificazioni di Marco Antonio Biblioteca &copy; 2024. Tutti i diritti riservati</h4>
+            <h4>Mondo Certificazioni di Marco Antonio Biblioteca &copy; <?=$year?>. Tutti i diritti riservati</h4>
             <h5>Sede legale: Via F. TURATI 17 80020, Crispano (NA)</h5>
             <h5>P.Iva: 10529631219</h5>
             <div class="document">
